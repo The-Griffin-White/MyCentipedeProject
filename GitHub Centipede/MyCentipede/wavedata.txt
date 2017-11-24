@@ -1,0 +1,23 @@
+// probability is 1 out of x, so the higher x, the lower spawnrate
+
+wave 3
+{
+flea no
+solohead yes
+spider yes
+spiderprob 5
+}
+
+wave 2
+{
+numsegments 11
+flea yes
+scorpion yes
+}
+
+wave 1
+{
+mushroomstospawnflea 3
+numsegments 11
+flea yes
+}
